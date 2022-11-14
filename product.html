@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Product page </title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+
+    <!-- =============================== * navbar * ============================================ -->
+
+    <div class="hedder">
+        <div class="navbar">
+
+
+
+
+            <img src="Regro.png">
+
+
+
+
+
+
+            <div class="contry_select" id="contry">
+                <div class="select">
+                    <p id="text"> Select Your Contry </p>
+                    <i class="fa-solid fa-chevron-down" id="moving"></i>
+                </div>
+
+
+                <ul class="option_box" id="list">
+                    <li class="option" onclick="myfunction('INDIA')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>INDIA</p>
+                    </li>
+                    <li class="option" onclick="myfunction('Canada')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Canada</p>
+                    </li>
+                    <li class="option" onclick="myfunction('India')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>India</p>
+                    </li>
+                    <li class="option" onclick="myfunction('Pakistan')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Pakistan</p>
+                    </li>
+                    <li class="option" onclick="myfunction('New York')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>New York</p>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="search_box">
+                <input type="text" class="searchclass" id="searchid" placeholder="Search Agrculture West Hear ">
+                <p> <i class="fa-solid fa-magnifying-glass"></i> </p>
+            </div>
+
+
+
+
+            <div class="language">
+                <p id="eng_tag"> English </p>
+
+                <ul class="hin_eng">
+                    <li onclick="languageolx('English')"> English </li>
+                    <li onclick="languageolx('हिन्दी')">हिन्दी</li>
+                </ul>
+
+            </div>
+
+
+
+
+            <div class="messeage">
+                <i class="fa-regular fa-comment"></i>
+            </div>
+
+
+
+
+            <div class="messeage">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+
+
+
+
+
+            <div class="your_logo">
+                <div class="profile_img" id="girl_img_id">
+                    <img src="profile.png">
+                </div>
+
+                <div class="dropdwon" id="gropdwonid">
+                    <div class="nameandimg">
+                        <img src="vinay.png">
+                        <p>Vinay Ambatkar</p>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <i class="fa-regular fa-user"></i>
+                            <p>My Account</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-box"></i>
+                            <p>My Orders</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <i class="fa-regular fa-circle-question"></i>
+                            <p>Help</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-gear"></i>
+                            <p>Setting</p>
+                        </li>
+                        <hr>
+
+                        <li>
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                            <p>Log Out</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="selling_page">
+                <button> <i class="fa-solid fa-plus"></i>
+                    <p>SELL</p>
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- =============================== * ad 1 * ============================================ -->
+
+
+    <div class="ads_img2">
+        <img src="images/ad2.jpg">
+        <i class="fa-regular fa-rectangle-xmark" id="adicon2"></i>
+    </div>
+
+
+
+    <!-- =============================== * product img * ============================================ -->
+
+
+
+    <div class="product_img">
+
+
+        <div class="image_discription">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"> <img src="coconat.jpg"> </div>
+                    <div class="swiper-slide"> <img src="coconut2.png"></div>
+                    <div class="swiper-slide"> <img src="coconut3.png"></div>
+                    <div class="swiper-slide"> <img src="coconat4.png"></div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+
+                <div class="swiper-button-prev" id="prev"></div>
+                <div class="swiper-button-next" id="next"></div>
+            </div>
+
+            <div class="descriptiopn">
+                <h3> Descriptiopn </h3>
+                <p>Coconut quantity : 200 kg</p>
+            </div>
+        </div>
+
+        <div class="product_details">
+            <div class="box">
+                <div class="price">
+                    <h3> ₹3,500</h3>
+                    <div>
+                        <p><i class="fa-solid fa-share-nodes"></i> </p>
+                        <p> <i class="fa-regular fa-heart"></i> </p>
+                    </div>
+                </div>
+                <span> Mi TV Stick </span>
+                <div class="location">
+                    <p>Ghatkopar West, Mumbai, Maharashtra</p>
+                    <p>Today</p>
+                </div>
+            </div>
+
+            <div class="box" id="box2">
+                <p class="Seller_description"> Seller Description </p>
+                <div class="seller_detail">
+                    <img src="Farmer.png">
+                    <div>
+                        <h2>Yash Umate</h2>
+                        <p>Member since Nov 2021</p>
+                    </div>
+                </div>
+                <a href="chatbox.html"> Chat with Seller  </a>
+
+            </div>
+
+         <div class="box" id="box3">
+              <h2> Posted in </h2>
+              <p>Sevagram</p>
+              <img src="location1.png" >
+         </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        //  =============================== * navbar * ============================================
+
+        let contry = document.getElementById('contry');
+        let moving = document.getElementById('moving');
+        let text = document.getElementById('text');
+        let list = document.getElementById('list');
+
+
+        contry.addEventListener('click', () => {
+            list.classList.toggle('hidden');
+            moving.classList.toggle('roted')
+        });
+        function myfunction(omkar) {
+            text.innerHTML = omkar;
+        }
+
+
+        let eng_tag = document.getElementById('eng_tag');
+        let hin_eng = document.querySelector('.hin_eng');
+        let language = document.querySelector('.language');
+
+
+        language.addEventListener('click', () => {
+            hin_eng.classList.toggle('display_div');
+        });
+        function languageolx(anyone) {
+            eng_tag.innerHTML = anyone;
+        }
+
+        let girl_img_id = document.getElementById('girl_img_id');
+        let gropdwonid = document.getElementById('gropdwonid');
+
+        girl_img_id.addEventListener('click', () => {
+            gropdwonid.classList.toggle('block_div')
+        });
+
+
+        //  =============================== * product img* ============================================
+
+
+        const swiper = new Swiper('.swiper', {
+
+            loop: true,
+
+
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+
+
+    </script>
+
+</body>
+
+</html>
